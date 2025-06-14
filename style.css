@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:'poppins', sans-serif;
+    background-color:wheat;
+    color: #272624;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    background-color: #333131;
+    color: white;
+    padding: 1.5rem 0;
+}
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0%;
+    display:inline;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: 800;
+    font-size: 2rem;
+}
+nav ul{
+    list-style: circle;
+    display: inline;
+    gap: 1rem;
+}
+nav a:hover{
+    color:rgb(158, 158, 204)
+}
+.para{
+    background: Linear-gradient(to right , #90b5e2, #5a6096);
+    color: #fff;
+    text-align: center;
+    padding: 4rem;
+}
+.para img{
+    border-radius: 50%;
+    width: 100px;
+}
+.section{
+    background-color: #504d4d;
+    text-align: center;
+    padding: 150px;
+}
+.para-light{
+    background-color: #fff;
+}
+.skill , .habbit{
+    list-style: none;
+    padding: 1.5rem;
+    display: inline;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1,5rem;
+}
+.project{
+    display: grid;
+    grid-template-columns: max-content;
+    background-color: #382638;
+    border: 10px solid #5a6096 #5a6096 #5a6096 #5a6096;
+    padding-top: 2rem;
+    box-shadow:#272624;
+    text-align: center;
+}
+.footer{
+    background-color: #1d1c1c;
+    color: antiquewhite;
+    text-align: left;
+    padding: 2rem;
+}
+.about-you a{
+    font-size: 2rem;
+    margin: auto;
+    color: #90b5e2;
+    transition: color 0.5;
+} 
+.about-you a:hover{
+    color: #504d4d;
+}
+.p{
+    text-align: center;
+    text-decoration:solid;
+}
